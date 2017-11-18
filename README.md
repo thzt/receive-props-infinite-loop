@@ -1,2 +1,3 @@
-# receive-props-infinite-loop
-the infinite loops caused by updating parent component's state in `componentWillReceiveProps`.
+### react-stack-overflow
+
+子组件`componnetWillReceiveProps`通过回调，修改父组件state时，产生的死循环。
