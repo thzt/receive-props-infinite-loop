@@ -1,21 +1,21 @@
 {
-  "name": "react-stack-overflow",
+  "name": "receive-props-infinite-loop",
   "version": "1.0.0",
-  "description": "",
+  "description": "the infinite loops caused by updating parent component's state in `componentWillReceiveProps`.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thzt/react-stack-overflow.git"
+    "url": "git+https://github.com/thzt/receive-props-infinite-loop.git"
   },
   "author": "thzt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thzt/react-stack-overflow/issues"
+    "url": "https://github.com/thzt/receive-props-infinite-loop/issues"
   },
-  "homepage": "https://github.com/thzt/react-stack-overflow#readme",
+  "homepage": "https://github.com/thzt/receive-props-infinite-loop#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
