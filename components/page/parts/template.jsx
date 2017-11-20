@@ -1,4 +1,6 @@
-import NumberSelector from '../components/number-selector/index.jsx';
+import React from 'react';
+
+import NumberSelector from '../../number-selector/index.jsx';
 
 <div>
     <div>

@@ -10,7 +10,8 @@ module.exports = {
     output: {
         devtoolModuleFilenameTemplate: '[absolute-resource-path]',
         path: path.resolve(__dirname, 'dist/'),
-        filename: '[name].js'
+        filename: '[name].js',
+        publicPath: 'dist/'
     },
     module: {
         loaders: [

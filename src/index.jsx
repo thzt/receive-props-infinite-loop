@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import statefulTemplate from 'stateful-template';
 
-import './index.scss';
-import Template from 'jsxt-loader!babel-loader!./index.template.jsx';
-import state from './index.state';
-import events from './index.events';
-
-const Page = statefulTemplate({
-    Template,
-    state,
-    events,
-});
+import Page from '../components/page/index.jsx';
 
 ReactDOM.render(
     <Page />,

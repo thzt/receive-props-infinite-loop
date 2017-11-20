@@ -1,3 +1,5 @@
+import React from 'react';
+
 <div className="number-selector">
     {
         numbers.map((number, index) => {

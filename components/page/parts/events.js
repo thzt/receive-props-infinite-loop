@@ -1,5 +1,5 @@
 // ajax
-import fetchNumber from '../ajax/fetch-number';
+import fetchNumber from '../../../ajax/fetch-number';
 
 export default {
     // 事件
